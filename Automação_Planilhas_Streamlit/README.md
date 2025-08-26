@@ -1,9 +1,10 @@
-automacao-planilhas-python
-
 # Automação de Planilhas com Python
 
 Este projeto permite processar planilhas Excel, identificando contas duplicadas e mantendo apenas uma ocorrência de cada conta.
 O objetivo é economizar tempo e reduzir erros de análise de grandes volumes de dados.
+
+## 🌐 Teste Online
+Você pode testar o app diretamente no Streamlit [clicando aqui](https://automacao-planilhas-python-vmelce2zwzzkzacaegx7s2.streamlit.app).
 
 ## Tecnologias utilizadas
 - Python
@@ -17,9 +18,10 @@ O objetivo é economizar tempo e reduzir erros de análise de grandes volumes de
 - Mantém apenas uma ocorrência de cada conta
 - Permite download da planilha processada
 
-## Como usar
+## Como usar localmente
 1. Clone ou faça download deste repositório:
-https://github.com/mateussxz/automacao-planilhas-python
+'''bash
+git clone https://github.com/mateussxz/automacao-planilhas-python
 
 2. Acesse a pasta do projeto:
 cd automacao-planilhas-python
