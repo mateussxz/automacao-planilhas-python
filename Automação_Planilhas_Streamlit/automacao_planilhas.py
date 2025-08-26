@@ -41,7 +41,7 @@ if uploaded_file:
                 label="Baixar planilha processada",
                 data=file,
                 file_name=output_file,
-                mine="application/vnd.openxlformats-officedocument.spreadsheetml.sheet"
+                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
             )
     except Exception as e:
         st.error(f"Ocorreu um erro ao processar a planilha: {e}")
